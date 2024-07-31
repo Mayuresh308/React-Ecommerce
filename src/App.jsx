@@ -7,7 +7,7 @@ import ProductDetail from './components/ProductDetail';
 import SearchItem from './components/SearchItem';
 import Cart from './components/Cart';
 import { items } from './components/Data';
-import EditProduct from './components/EditProduct';
+import EditProduct from './components/editproduct';
 
 const App = () => {
   const [data, setData] = useState([...items]);
